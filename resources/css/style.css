@@ -1,0 +1,98 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+img{
+    width: 442px;
+    height: 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+}
+
+footer{
+    padding: 25px 100px;
+    background-color: teal;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.about{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.title{
+    display: inline;
+    margin: 0 auto;
+}
+
+.logo{
+    margin: 100px auto;
+    margin-bottom: 10px;
+}
+
+.header{
+    background-color: teal;
+    color: white;
+    padding: 4px 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.no-deco{
+    text-decoration: none;
+    color: white;
+}
+
+.no-deco:hover{
+    color:rgb(65, 65, 65);
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form-input{
+    margin: 2px 1px;
+    background-color: rgb(133, 204, 204);
+    border: none;
+    border-radius: 10px;
+    line-height: 1.5rem;
+    padding: 0 1rem;
+}
+
+.form-button{
+    margin: 2px 1px;
+    background-color: rgb(10, 69, 83);
+    border-radius: 10px;
+    border: none;
+    line-height: 2rem;
+    color: white;
+}
+
+.form-button:hover{
+    cursor: pointer;
+    background-color: rgb(47, 128, 148);
+}
